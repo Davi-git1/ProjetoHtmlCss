@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+    p {
+        font-family: 'Handlee', cursive;  
+        font-size: larger;
+        text-indent: 20px;
+        text-align: justify;
+    }
+    
+        h1{
+        font-family: 'Handlee', cursive;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 40px;
+        text-shadow: 5px 5px 5px rgb(164, 200, 241);
+        text-transform: uppercase;   
+    }
+    h6{
+        font-family: 'Handlee', cursive;
+    }
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 0px;
+    background-color: rgb(164, 200, 241);
+}
+.cabecalho-imagem{
+    height: 60px;
+}
+.cabecalho-menu-item{
+    display: flex;
+    text-align: center;
+    gap: 25px;
+    
+}
+.cabecalho-menu-item {
+    font-family: 'Handlee', cursive;
+}
+.conteudo-principal-escritorio-titulo{
+    text-align: center;
+    font-variant: small-caps;
+}
+.conteudo{
+    margin-left:5%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+ul{
+    list-style-type: "\27A1";
+    margin-left: 80%;
+    position: fixed;
+    bottom: 350px;
+    opacity: 0.3;
+}
+.tabela{
+    margin-left: 30%;
+    margin-top: 29vb;
+    margin-bottom: 28vb;
+    opacity: 0.9;
+}
+th{
+    background-color: rgb(164, 200, 241);
+}
+body{
+    background-image: url(3327590-2606729424.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+#form{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 11vb;
+    background: linear-gradient(120deg, white, rgb(164, 200, 241));
+    padding-left: 0.5%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(164, 200, 241); 
+    opacity: 0.8;
+}
+
+input:hover{
+    background: linear-gradient(white, rgb(116, 163, 216));
+    border-radius: 6px;
+}
+#pseudo:hover {
+    background: linear-gradient(rgb(255, 255, 255), rgb(116, 163, 216));
+    transform: scale(1.2,1.2);
+    transition-duration: 1s;
+}
+.imagens{
+    border-radius: 20px;
+    border-style: solid;
+    width: 450px;
+    height: 350px;
+    max-width: 100%;
+    display: flex;
+    margin-top: 5vb;
+    margin-bottom: 5vb;
+}
+.imagens:hover{
+    transform: scale(1.2,1.2);
+}
+.cate{
+    font-size: 30px;
+}
+.footer {
+    padding: 20px; 
+    background-color: rgb(164, 200, 241);
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.esp{
+    margin-right: 10px;
+    border-radius: 5px;
+}
+#animatel{
+    left: 25%;
+    bottom: 60vh;
+    animation: anima1 1s infinite;
+    position: relative;
+    opacity: 0.5;
+}
+@keyframes anima1{
+    0%{transform:translate(0);}
+    10%{transform:translate(-2px,-2px);}
+    20%{transform:translate(2px,-2px);}
+    30%{transform:translate(-2px,2px);}
+    40%{transform:translate(2px,2px);}
+    50%{transform:translate(-2px,-2px);}
+    60%{transform:translate(2px,-2px);}
+    70%{transform:translate(-2px,2px);}
+    80%{transform:translate(-2px,-2px);}
+    90%{transform:translate(2px,-2px);}
+    100%{transform:translate(0);}
+
+}
